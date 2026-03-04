@@ -1,0 +1,39 @@
+signs a status to a student based on their grade.
+
+● Pass: Grade is greater than or equal to 50.
+
+● Fail: Grade is less than 50.
+
+● Distinction: 
+
+Grade is greater than or equal to 80.
+
+% Facts:/
+
+student_grade(Student, Grade).
+
+student_grade(alice, 90).
+
+student_grade(bob, 45).
+
+student_grade(charlie, 60).
+
+student_grade(david, 85).
+
+% Rules passed(Student) :- 
+
+student_grade(Student, Grade),
+
+Grade >= 50.
+
+failed(Student) :- 
+
+student_grade(Student, Grade),
+
+Grade < 50.
+
+ distinction(Student) :-
+ 
+student_grade(Student, Grade),
+
+Grade >= 80.
