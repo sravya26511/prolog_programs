@@ -1,0 +1,21 @@
+The Task: Create a knowledge base about who likes what food.
+
+1. Define facts stating that:
+
+○ John likes pizza.
+
+○ John likes sushi.
+
+○ Mary likes sushi.
+
+○ Mary likes chocolate.
+
+○ Paul likes pizza.
+
+2. Define facts for food types:
+
+○ Pizza is Italian.
+
+○ Sushi is Japanese.
+
+○ Chocolate is Dessert.
