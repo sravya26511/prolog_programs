@@ -1,0 +1,7 @@
+likes(john, pizza).
+
+likes(john, burger).
+
+%Query:
+
+ &?- likes(john, X).
